@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sustainable MSME Impact & Guarantee Intelligence</title>
+<link rel="stylesheet" href="css/style.css">
+<script defer src="https://cdn.jsdelivr.net/npm/xlsx@0.18.5/dist/xlsx.full.min.js"></script>
+<script defer src="js/app.js"></script></head>
+<body><div id="loading" class="loading"><div class="loader"></div><span>Loading board intelligence...</span></div>
+<div class="app-shell">
+<aside class="sidebar" id="sidebar"><div class="brand"><small>CGC GROUP</small><strong>Sustainable MSME Impact &<br>Guarantee Intelligence</strong></div>
+<nav id="sidebarNav"></nav><div class="nav-group"><span>CROSS-SCREEN DETAIL VIEWS</span><a href="#">• 360° MSME Profile</a><a href="#">• PFI Partnership Profile</a><a href="#">• CCPT Case Profile</a></div>
+<div class="sidebar-note">Prototype for senior-management discussion. Current values are <b>Demo data</b>; public targets and historical baselines are labelled at source.</div></aside>
+<main><header class="topbar"><button class="icon-button menu" id="menuBtn">☰</button><div class="search"><span>⌕</span><input id="searchInput" placeholder="Search MSMEs, PFIs, CCPT cases, KPIs, screens..."></div>
+<div class="actions"><button>▱ My Views⌄</button><button>▱ Save view</button><button>⌯ Share</button><button>▣ Schedule report</button><button id="refreshBtn">↻ Refresh</button><button id="exportBtn">⇩ Export</button><span class="bell">♧<b>6</b></span><span class="avatar">BO</span><span class="user">Board Member<small>Board</small></span></div></header>
+<section class="content"><div class="page-head"><div><div class="crumb">Board Cockpit › <span id="crumb"></span></div><h1 id="pageTitle"></h1><p id="pageDescription"></p><div class="lens">● Performance lens: showing achievement against target, % of target, change vs YTD 2025 and RAG status.</div></div>
+<div class="controls"><div class="period"><small>PERIOD</small><b>YTD 2026</b></div><div class="tabs"><button class="active">Performance</button><button>Impact</button><button>Risk</button><button>Data quality</button></div><button class="filter-btn">☷ Portfolio filters <b>1</b></button></div></div>
+<div class="filter-row">Active filters: <span>State / region: <b id="stateFilter">All Malaysia</b> ×</span><button id="clearFilter">Clear all</button></div>
+<div id="featured"></div><div class="section-label">ALL INDICATORS ON THIS SCREEN</div><div class="kpi-grid" id="kpiGrid"></div><footer>Dashboard data source: <b>data/dashboard-data.xlsx</b> · Edit the workbook, commit it to GitHub and refresh this page.</footer></section></main></div>
+<div class="toast" id="toast"></div></body></html>
