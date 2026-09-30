@@ -1,0 +1,30 @@
+{
+  "tool": "artifact-validator",
+  "schemaVersion": "2.0",
+  "validatorVersion": "3.2.1",
+  "result": "valid",
+  "exitCode": 0,
+  "input": {
+    "path": "/mnt/data/sustainable-msme-dashboard/data/dashboard-data.xlsx",
+    "sha256": "6660055f36b5af97c79b0def5774e1b9ab6e68d9e41ca7fffed9bf1b45b73b4d",
+    "sizeBytes": 22719,
+    "kind": "xlsx"
+  },
+  "output": null,
+  "backup": null,
+  "repair": {
+    "mode": "compat",
+    "applied": [],
+    "revalidated": false,
+    "status": "not_needed",
+    "outputPublished": false
+  },
+  "packageError": null,
+  "summary": {
+    "errorCount": 0,
+    "warningCount": 0,
+    "repairableCount": 0,
+    "issueCount": 0
+  },
+  "issues": []
+}
